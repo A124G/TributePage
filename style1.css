@@ -1,0 +1,82 @@
+/* Reset some default styles */
+
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Apply a background color to the body */
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+
+/* Style the main container */
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Style the title */
+
+#title {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+/* Style the image and caption */
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#img-caption {
+    color: #555;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+/* Style the tribute information */
+
+#tribute-info {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+/* Apply styles for smaller screens using media queries */
+
+@media screen and (max-width: 600px) {
+    #main {
+        padding: 10px;
+    }
+    #title {
+        font-size: 28px;
+    }
+    #img-caption {
+        font-size: 14px;
+    }
+}
